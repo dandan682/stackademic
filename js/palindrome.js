@@ -1,14 +1,14 @@
 'use strict'
 
 function isAPalindrome(word) {
-  if (!word) {
+    if (!word) {
     return false
-  }
+    }
 
-  const cleanedWord = word.toLowerCase().replace(/ /g, '')
-  const reverted = cleanedWord.split('').reverse().join('')
+    const cleanedWord = word.toLowerCase().replace(/[^a-z0-9+]+/gi, '')
+    const reverted = cleanedWord.split('').reverse().join('')
 
-  return cleanedWord === reverted ? true : false
+    return cleanedWord === reverted ? true : false
 }
 
 console.log(isAPalindrome('madam')) // true
