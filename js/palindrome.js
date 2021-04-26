@@ -16,6 +16,8 @@ console.log(isAPalindrome('piero')) // false
 console.log(isAPalindrome('madaM')) // true
 console.log(isAPalindrome()) // false
 console.log(isAPalindrome('nurses run')) // true
+console.log(isAPalindrome('ateo')) // false
+
 
 // improve the isAPalindrome function to accept and correctly check this string!!
 console.log(isAPalindrome("Go hang a salami, I'm a lasagna hog"))
