@@ -17,6 +17,8 @@ console.log(isAPalindrome('madaM')) // true
 console.log(isAPalindrome()) // false
 console.log(isAPalindrome('nurses run')) // true
 console.log(isAPalindrome('ateo')) // false
+console.log(isAPalindrome('asa')) // true
+
 
 
 // improve the isAPalindrome function to accept and correctly check this string!!
