@@ -37,4 +37,4 @@ I highly recommend a Docker installation:
 
 ## To execute psql commands
 1. SSH into your Postgres docker container: `docker exec --user postgres -it clubhouse-postgres /bin/bash`
-2. Run `psql` on the terminal
+2. Run `psql` on the terminal 
