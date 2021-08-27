@@ -30,4 +30,5 @@ INNER JOIN participants
     ON participants.room_id = rooms.id
 
 GROUP BY rooms.id, rooms.name, clubs.name
+ORDER BY rooms.date DESC
 ;
